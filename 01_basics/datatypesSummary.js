@@ -1,7 +1,7 @@
 //  Primitive
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
-
+// uses stack memory
 const score = 100
 const scoreValue = 100.3
 
@@ -18,7 +18,7 @@ console.log(id === anotherId);
 
 
 
-// Reference (Non primitive)
+// Reference (Non primitive) uses heap memory
 
 // Array, Objects, Functions
 
